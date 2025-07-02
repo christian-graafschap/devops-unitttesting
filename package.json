@@ -1,0 +1,30 @@
+{
+  "name": "les-2---unit-testing",
+  "version": "1.0.0",
+  "main": "authenticate.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "jest-html-reporter": "^4.3.0"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-html-reporter",
+        {
+          "pageTitle": "Mijn Test Rapport",
+          "outputPath": "test-report.html",
+          "includeFailureMsg": true,
+          "includeConsoleLog": true
+        }
+      ]
+    ]
+  }
+}
