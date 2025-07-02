@@ -1,4 +1,4 @@
-const Authenticate = require('./Authenticate');
+const Authenticate = require('./authenticate');
 
 describe('Authenticate login', () => {
   let auth;
