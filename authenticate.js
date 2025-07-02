@@ -1,6 +1,6 @@
 class Authenticate {
     login(username, password) {
-        return (username === "admin" && password === "1234")
+        return (username === "admin" && password === "12345")
     }
 }
 
