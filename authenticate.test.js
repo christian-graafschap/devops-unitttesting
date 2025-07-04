@@ -3,7 +3,7 @@ const Authenticate = require('./authenticate');
 describe('Authenticate login', () => {
   let auth;
 
-  beforeEach(() => {
+  beforeAll(() => {
     auth = new Authenticate();
   });
 
