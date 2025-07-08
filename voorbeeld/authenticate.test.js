@@ -1,13 +1,9 @@
 const Authenticate = require('./authenticate');
 
 describe('Authenticate login', () => {
-  let auth;
+  const auth = new Authenticate();
 
-  beforeAll(() => {
-    auth = new Authenticate();
-  });
-
-  test('should return true for correct username and password', () => {
+ test('should return true for correct username and password', () => {
     expect(auth.login('admin', '1234')).toBe(true);
   });
 
