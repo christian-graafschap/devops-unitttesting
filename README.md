@@ -22,32 +22,7 @@ In dit project gebruiken we [Jest](https://jestjs.io/) als testframework en [jes
    npm install --save-dev jest-html-reporter
    ```
 
-## ⚙️ Configuratie
-
-Pas je `package.json` aan met het volgende:
-
-### Scripts
-
-Voeg onder `scripts` toe:
-
-```json
-"scripts": {
-  "test": "jest"
-}
-```
-
-### HTML Reporter
-
-Voeg onderaan je `package.json` het volgende toe:
-
-```json
-"jest-html-reporter": {
-  "pageTitle": "Test Report",
-  "outputPath": "test-report.html"
-}
-```
-
-## ▶️ Testen
+## ▶️ Runnen van tests
 
 Voer je tests uit met:
 
@@ -56,9 +31,3 @@ npm test
 ```
 
 Na het uitvoeren van de tests wordt automatisch een bestand `test-report.html` aangemaakt in de hoofdmap van het project. Dit kun je openen in je browser om de testresultaten te bekijken.
-
-## 📁 Output
-
-- `test-report.html`: HTML-overzicht van de testresultaten.
-
-> Zorg ervoor dat je je testbestanden de extensie `.test.js` geeft zodat Jest ze automatisch herkent.
