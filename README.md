@@ -1,8 +1,10 @@
 # Testen met Jest en jest-html-reporter
 
 In dit project gebruiken we [Jest](https://jestjs.io/) als testframework en [jest-html-reporter](https://github.com/Hargne/jest-html-reporter) om testresultaten overzichtelijk in HTML te tonen.
+Zorg dat Node.js op je laptop is geïnstalleerd.
 
 ## 📦 Installatie
+Voer onderstaande commando's uit op de command line.
 
 1. Initialiseer je project (indien nog niet gebeurd):
 
